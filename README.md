@@ -35,6 +35,9 @@ Pneumonia-Classifier-App is an image classification project that detects signs o
 
 Early and accurate detection of pneumonia is critical for effective treatment and patient outcomes. However, manual diagnosis from chest X-ray images can be time-consuming and prone to human error. This project aims to automate the process of pneumonia detection by leveraging deep learning techniques to analyze X-ray images, providing reliable predictions that assist healthcare professionals in clinical decision-making.
 
+Streamlit App link : [https://pneumonia-classifier-app.streamlit.app/](https://pneumonia-classifier-app.streamlit.app/)
+Hugging Face Space link : [https://huggingface.co/spaces/samithcs/Pneumonia-Classifier-App](https://huggingface.co/spaces/samithcs/Pneumonia-Classifier-App)
+
 ## Tech Stack
 
 - Python
