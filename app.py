@@ -20,7 +20,11 @@ st.title('🩺 Pneumonia Classifier Application')
 st.header('Upload a Chest X-ray Image')
 
 # Upload file
-file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
+file = st.file_uploader(
+    "Upload a chest X-ray image", 
+    type=['jpeg', 'jpg', 'png'],
+    label_visibility="visible"
+)
 
 # Load model
 model_path = os.path.join(os.path.dirname(__file__), 'model', 'pneumonia_classifier.keras')
