@@ -17,7 +17,7 @@ set_background('./bgs/bg5_blur.png')
 
 # Set title and header
 st.title('🩺 Pneumonia Classifier Application')
-st.header('Upload a Chest X-ray Image')
+
 
 # Upload file
 file = st.file_uploader(
